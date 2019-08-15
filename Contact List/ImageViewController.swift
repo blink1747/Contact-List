@@ -23,6 +23,7 @@ class ImageViewController: UIViewController, UINavigationControllerDelegate, UII
     
         let alertController = UIAlertController(title: "Hey There", message:  "Are you sure?",
                                                 preferredStyle: UIAlertController.Style.alert)
+        
         alertController.addAction(UIAlertAction(title: "Yes", style: UIAlertAction.Style.destructive, handler: {(action) in
             print("Yes tapped")
         }))

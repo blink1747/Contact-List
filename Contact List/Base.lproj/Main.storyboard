@@ -74,6 +74,7 @@
                                 <state key="normal" title="Import Image"/>
                                 <connections>
                                     <action selector="actionSheetAlert:" destination="If4-9m-wOp" eventType="touchUpInside" id="Xvi-pS-byZ"/>
+                                    <action selector="importImageAction:" destination="If4-9m-wOp" eventType="touchUpInside" id="Kga-Rc-YNA"/>
                                     <action selector="standardAlert:" destination="If4-9m-wOp" eventType="touchUpInside" id="SaZ-Dc-rc0"/>
                                 </connections>
                             </button>
